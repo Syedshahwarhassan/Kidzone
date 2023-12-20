@@ -1,0 +1,63 @@
+.container{
+    padding: 0%;
+    margin: 0%;
+}
+.top-nav{
+    background-color: rgb(161, 45, 161);
+    display: flex;
+    justify-content: space-between;
+}
+.top-nav ul{
+    
+    display: flex;
+    
+}
+.top-nav ul li{
+    list-style-type: none;
+    
+}
+.top-nav ul li a{
+    text-decoration: none;
+    color: lightblue;
+}
+.bottom-nav{
+    display: flex;
+}
+.bottom-nav ul{
+    display: flex;
+    text-align: center;
+    margin: 20px 30px;
+}
+.bottom-nav ul li{
+    margin: 20px 30px;
+    list-style-type: none;
+    font-size: 20px;
+}
+.bottom-nav ul li:hover{
+    color: orange;
+}
+.slider{
+    width: 100%;
+}
+.sliderimg{
+    position: relative;
+}
+.slidertext{
+    background-image: url(./image/SK2-060723.png);
+    padding-top: 30px;
+    height: 500px;
+    font-size: larger;
+    text-align: center;
+
+}
+.shapimg{
+    position: relative;
+}
+.shapimgs h2{
+position: absolute;
+left: 35%;
+color: orange;
+top: 220px;
+font-size: 90px;
+text-align: center;
+}
